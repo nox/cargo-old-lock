@@ -1,0 +1,17 @@
+[package]
+name = "cargo-old-lock"
+version = "0.1.0" # update docs link on bump
+authors = ["Anthony Ramine <nox@nox.paris>"]
+description = "Print a Cargo manifest, old style"
+license = "Apache-2.0 OR MIT"
+repository = "https://github.com/nox/cargo-old-lock"
+documentation = "https://docs.rs/crate/cargo-old-lock/0.1.0"
+readme = "README.md"
+keywords = ["cargo", "manifest", "legacy"]
+categories = ["development-tools"]
+edition = "2018"
+
+[dependencies]
+cargo-lock = "3"
+serde = "1"
+toml = "0.5"
